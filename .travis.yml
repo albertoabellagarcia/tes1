@@ -1,17 +1,8 @@
-language: python
-python:
-- "3.6"
+language: bash
 
-branches:
-  only:
-    - master
+sudo: required
 
-before_install:
-install:
-before_script:
+services: docker
+
 script:
-after_sucess:
-after_failure:
-before_deploy:
-deploy:
-after_deploy:
+echo "hello world"
