@@ -1,4 +1,9 @@
-language: bash
+language: python
 
-script:
-echo "hello world"
+python:
+
+  - "2.7"
+
+script: 
+
+  - python hello.py
